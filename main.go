@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/Waterfox83/github-actions-tutorial/foobar"
+	"github.com/padok-team/github-actions-tutorial/foobar"
 )
 
 const addr = ":8080"
