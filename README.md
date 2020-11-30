@@ -297,12 +297,11 @@ what you aim to do, so use `docker/build-push-action` in your job's next step.
 This action requires you specify the repository to push your image to. This is a
 great usecase for environment variables. At the top of your workflow file, fill
 in the `env` field to add an `IMAGE_REPOSITORY` variable equal to the image
-repository you wish to store your image in. For example, my DockerHub handle is
-`busser` so I wrote:
+repository you wish to store your image in. 
 
 ```yaml
 env:
-  IMAGE_REPOSITORY: busser/foobar
+  IMAGE_REPOSITORY: waterfox83/github-actions
 ```
 
 In order to push images to an image registry, Github Actions requires

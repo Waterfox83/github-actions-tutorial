@@ -6,4 +6,4 @@ resources:
   - ./service.yml
 
 commonLabels:
-  app: foobar
+  app: github-actions

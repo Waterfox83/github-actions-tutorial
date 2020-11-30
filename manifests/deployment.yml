@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: foobar
+  name: github-actions
   labels:
-    app: foobar
+    app: github-actions
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: foobar
+      app: github-actions
   template:
     metadata:
       labels:
-        app: foobar
+        app: github-actions
     spec:
       containers:
-        - name: foobar
+        - name: github-actions
           image: REPOSITORY:TAG
           ports:
             - containerPort: 8080

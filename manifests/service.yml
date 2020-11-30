@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: foobar
+  name: github-actions
 spec:
   selector:
-    app: foobar
+    app: github-actions
   ports:
     - protocol: TCP
       port: 8080
